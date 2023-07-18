@@ -1,0 +1,253 @@
+
+@font-face {
+    font-family: spotify;
+    src: url("GothamRounded-Bold.otf");
+}
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    font-family: spotify;
+
+}
+
+.nav-bar{
+    background-color:rgba(0, 77, 8, 0.999);
+    height: 120px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size:20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo{
+    background-image: url("football\ beats.jpg");
+    background-size: cover;
+    height: 118px;
+    width: 200px;
+    margin-right: 0px;
+    border: 2px solid black;
+    
+}
+.home{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about{
+    margin-right:10px;
+}
+.news{
+    margin-right: 1100px;
+}
+.news a{
+    color:white;
+}
+.border:hover{
+    border: 4px dotted rgb(2, 10, 1);
+    border-radius: 20%;
+    cursor: pointer;
+}
+.dropdown
+{
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    max-width:  350px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 15px;
+    color: black;
+}
+.about:hover .dropdown{
+    display: block;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.songlist h2{
+    color:white;
+    margin-left:60px;
+}
+
+.container{
+    height: 68vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-right: 75px;
+    margin-left: 50px;
+    padding: 20px;
+    background-size: cover;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 2px grey solid;
+    overflow: hidden;
+    animation: changeBackground 120s infinite;
+
+}
+.container video{
+  position: absolute;
+  top: 55%;
+  right: 15%;
+  transform: translate(-50%, -50%);
+  height: 40%;
+  border: 10px groove black;
+}
+
+
+
+
+
+@keyframes changeBackground {
+    0% { background-image: url("Cristiano-Ronaldo-Wallpaper-4k.jpg"); }
+    20% { background-image: url("neymar.gif"); }
+    35% { background-image: url("goat2.jpg"); }
+    40% { background-image: url("ancel.gif"); }
+    75% { background-image: url("siuu.gif"); }
+    85% { background-image: url("skill1.gif"); }
+    95% { background-image: url("realmadrid.gif"); }
+    100% { background-image: url("ronaldo-andmarcelo.gif"); }
+    
+  }
+
+
+.bottom{
+    position: sticky;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+#myprogress{
+    width: 80vw;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+#myprogress::-webkit-slider-runnable-track {
+    background-color: rgba(0, 77, 8, 0.999); /* Change the color of the thumb */
+    border-radius: 20px;
+}
+
+.icons{
+    color:white;
+    margin-top:20px;
+}
+.fa-backward-step{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.fa-forward-step{
+    margin-left: 8px;
+    margin-right: 0px;
+}
+.icons i{
+    cursor: pointer;
+}
+.icons i:hover{
+    
+    color:green
+}
+.maincontainer{
+    background-image:url("goat2.jpg");
+    background-size: contain;
+    height:600px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.styling{
+    margin-top:20px;
+    height:25px;
+    display: flex;
+    background-color: green;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    border:2px solid #997979;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left:60px;
+    font-size: 12px;
+    
+}
+.styling img{
+    height: 25px;
+    border:2px solid black;
+    margin: 0 15px;
+}
+.styling:hover{
+    border: 5px groove black;
+    color:white;
+    cursor: pointer;
+}
+.songitem
+{
+    margin-right: 700px;
+    display: block;
+    width: 350px;
+}
+.info img{
+    height: 100px;
+    width: 100px;
+}
+.name{
+    color: white;
+    font-size: medium;
+    margin-top: 20px;
+
+}
+.playsong{
+    margin-left: 10px;
+    font-size: 25px;
+}
+#whichsong{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#newscontainer{
+    height: 500px ;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 60px;
+    border: 5px solid white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(40, 121, 40);
+}
+#newscontainer h2{
+    margin-left: 40px;
+}
+
+  li{
+ 
+    font-size: 20px;
+    margin-top: 20px;
+
+
+   
+  }
+  li:hover{
+    font-weight: 700;
+  }
+  li a{
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  li a:hover{
+    color:white;
+  }
