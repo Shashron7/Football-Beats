@@ -1,4 +1,4 @@
-# Football Songs & News Website
+# Football Beats
 
 ## Overview
 The Football Songs & News Website is a platform designed for football enthusiasts to enjoy their favorite football chants and stay updated with the latest football news. It provides a convenient way to listen to football songs while also offering access to the most recent football news on the go.
